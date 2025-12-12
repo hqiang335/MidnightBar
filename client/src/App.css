@@ -1,0 +1,16 @@
+/* App.css - 酒吧的基础色调 */
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #050505; /* 深邃的黑色 */
+  color: #e0e0e0; /* 柔和的灰白色文字 */
+  font-family: 'Songti SC', 'SimSun', serif; /* 衬线体，更有格调 */
+  overflow: hidden; /* 禁止滚动，保持沉浸感 */
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+}
