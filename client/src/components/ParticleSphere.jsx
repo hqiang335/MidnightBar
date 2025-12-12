@@ -58,7 +58,7 @@ const Particles = ({ count = 3000 }) => {
 // 这是最终导出的组件：一个包含了相机和粒子的 3D 舞台
 const ParticleSphere = () => {
   return (
-    <div style={{ width: '100%', height: '500px' }}>
+    <div style={{ width: '100%', height: '100%' }}>
       <Canvas camera={{ position: [0, 0, 5], fov: 60 }}>
         {/*甚至不需要灯光，因为粒子是自发光的*/}
         <Particles count={4000} />
